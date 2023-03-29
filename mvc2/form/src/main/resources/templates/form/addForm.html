@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <link th:href="@{/css/bootstrap.min.css}"
+          href="../css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .container {
+            max-width: 560px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="py-5 text-center">
+        <h2>상품 등록 폼</h2>
+    </div>
+
+    <form action="item.html" th:action th:object="${item}" method="post">
+<!--        th:object : 기본 경로 설정과 유사-->
+        <div>
+            <label for="itemName">상품명</label>
+            <input type="text" id="itemName" th:field="*{itemName}" class="form-control" placeholder="이름을 입력하세요">
+        </div>
+        <div>
+            <label for="price">가격</label>
+            <input type="text" id="price" th:field="*{price}" class="form-control" placeholder="가격을 입력하세요">
+        </div>
+        <div>
+            <label for="quantity">수량</label>
+            <input type="text" id="quantity" th:field="*{quantity}" class="form-control" placeholder="수량을 입력하세요">
+        </div>
+
+        <hr class="my-4">
+
+        <!-- single checkbox -->
+        <div>판매 여부</div>
+        <div>
+            <div class="form-check">
+                <input type="checkbox" id="open" th:field="*{open}" class="form-check-input">
+<!--                체크박스 체크를 안할 경우 체크 여부 확인용 : hidden 사용! hidden이 없으면 null 되서 값이 안왔구나 인식
+                    웹브라우저 특성상 false의 값은 저장을 안하기 때문에 null이 되서 th 를 이용해서 값이 들어온 것을 입력 시킴
+                     홈페이지에서 f12 할 때  _open 으로 기록 남을거임 // f12 해서 페이로드에서 보세요-->
+                <label for="open" class="form-check-label">판매 오픈</label>
+            </div>
+        </div>
+
+        <!-- multi checkbox -->
+        <div>
+            <div>등록 지역</div>
+            <div th:each="region : ${regions}" class="form-check form-check-inline">
+                <input type="checkbox" th:field="*{regions}" th:value="${region.key}" class="form-check-input">
+                <label th:for="${#ids.prev('regions')}"
+                       th:text="${region.value}" class="form-check-label">서울</label>
+<!--            <label th:for="${#ids.prev('regions')}"  : 유틸리티 객체 #ids. ~ 내용 알아가기  // th:field="*{regions}" 여기서 생성된 id 값이 여기 있는
+                             ${#ids.prev('regions')} 값과 같은거다 라고 말하는중(매칭) // 안쓰면 제주 눌러도 서울 눌림 -->
+            </div>
+        </div>
+
+        <!-- radio button -->
+        <div>
+            <div>상품 종류</div>
+            <div th:each="type : ${itemTypes}" class="form-check form-check-inline">
+                <input type="radio" th:field="*{itemType}" th:value="${type.name()}" class="form-check-input">
+                <label th:for="${#ids.prev('itemType')}" th:text="${type.description}" class="form-check-label">
+                    BOOK
+                </label>
+<!--                라디오 버튼은 멀티 선택이 불가해서 hidden 생성 x-->
+            </div>
+        </div>
+
+        <!-- SELECT -->
+        <div>
+            <div>배송 방식</div>
+            <select th:field="*{deliveryCode}" class="form-select">
+                <option value="">==배송 방식 선택==</option>
+                <option th:each="deliveryCode : ${deliveryCodes}" th:value="${deliveryCode.code}"
+                        th:text="${deliveryCode.displayName}">FAST</option>
+            </select>
+        </div>
+
+        <hr class="my-4">
+
+        <div class="row">
+            <div class="col">
+                <button class="w-100 btn btn-primary btn-lg" type="submit">상품 등록</button>
+            </div>
+            <div class="col">
+                <button class="w-100 btn btn-secondary btn-lg"
+                        onclick="location.href='items.html'"
+                        th:onclick="|location.href='@{/form/items}'|"
+                        type="button">취소</button>
+            </div>
+        </div>
+
+    </form>
+
+</div> <!-- /container -->
+</body>
+</html>

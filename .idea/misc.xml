@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/__MACOSX/mvc2/exception" />
+    <file type="web" url="file://$PROJECT_DIR$/__MACOSX/mvc2/form" />
+    <file type="web" url="file://$PROJECT_DIR$/__MACOSX/mvc2/form-start" />
+    <file type="web" url="file://$PROJECT_DIR$/__MACOSX/mvc2/login" />
+    <file type="web" url="file://$PROJECT_DIR$/__MACOSX/mvc2/login-start" />
+    <file type="web" url="file://$PROJECT_DIR$/__MACOSX/mvc2/message" />
+    <file type="web" url="file://$PROJECT_DIR$/__MACOSX/mvc2/message-start" />
+    <file type="web" url="file://$PROJECT_DIR$/__MACOSX/mvc2/thymeleaf-basic" />
+    <file type="web" url="file://$PROJECT_DIR$/__MACOSX/mvc2/typeconverter" />
+    <file type="web" url="file://$PROJECT_DIR$/__MACOSX/mvc2/upload" />
+    <file type="web" url="file://$PROJECT_DIR$/__MACOSX/mvc2/validation" />
+    <file type="web" url="file://$PROJECT_DIR$/__MACOSX/mvc2/validation-start" />
+    <file type="web" url="file://$PROJECT_DIR$/mvc2/exception" />
+    <file type="web" url="file://$PROJECT_DIR$/mvc2/form" />
+    <file type="web" url="file://$PROJECT_DIR$/mvc2/login" />
+    <file type="web" url="file://$PROJECT_DIR$/mvc2/message" />
+    <file type="web" url="file://$PROJECT_DIR$/mvc2/thymeleaf-basic" />
+    <file type="web" url="file://$PROJECT_DIR$/mvc2/typeconverter" />
+    <file type="web" url="file://$PROJECT_DIR$/mvc2/upload" />
+    <file type="web" url="file://$PROJECT_DIR$/mvc2/validation" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="19" project-jdk-type="JavaSDK" />
+</project>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>text vs utext</h1>
+<ul>
+    <li>th:text = <span th:text="${data}"></span></li>
+    <li>th:utext = <span th:utext="${data}"></span></li>
+</ul>
+
+<h1><span th:inline="none">[[...]] vs [(...)]</span></h1>
+<ul>
+    <li><span th:inline="none">[[...]] = </span>[[${data}]]</li>
+    <li><span th:inline="none">[(...)] = </span>[(${data})]</li>
+
+    <!--    [[ ]] == th: // 타임리프 변수 선언 방식 2가지 -->
+    <!--    th:utext // [(...)]   // 타임리프 선언 방식인데 <b> 반영됨-->
+</ul>
+
+</body>
+</html>

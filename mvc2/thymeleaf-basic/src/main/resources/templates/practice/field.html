@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- th:Object == @RequestMapping("/practice") 느낌-->
+<form th:object="${item}" method="post">
+<!--    th: field=*{} 쓰면 실제 동작 시 id, name, value 써줌-->
+  <input type="text" th:field="*{itemName}"/>
+  <input type="text" th:field="*{price}"/>
+</form>
+</body>
+</html>

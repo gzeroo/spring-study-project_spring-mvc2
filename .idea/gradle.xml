@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/__MACOSX/mvc2/exception" />
+        <option name="gradleJvm" value="zulu-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/__MACOSX/mvc2/exception" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/__MACOSX/mvc2/form" />
+        <option name="gradleJvm" value="zulu-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/__MACOSX/mvc2/form" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/__MACOSX/mvc2/form-start" />
+        <option name="gradleJvm" value="zulu-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/__MACOSX/mvc2/form-start" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/__MACOSX/mvc2/login" />
+        <option name="gradleJvm" value="zulu-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/__MACOSX/mvc2/login" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/__MACOSX/mvc2/login-start" />
+        <option name="gradleJvm" value="zulu-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/__MACOSX/mvc2/login-start" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/__MACOSX/mvc2/message" />
+        <option name="gradleJvm" value="zulu-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/__MACOSX/mvc2/message" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/__MACOSX/mvc2/message-start" />
+        <option name="gradleJvm" value="zulu-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/__MACOSX/mvc2/message-start" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/__MACOSX/mvc2/thymeleaf-basic" />
+        <option name="gradleJvm" value="zulu-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/__MACOSX/mvc2/thymeleaf-basic" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/__MACOSX/mvc2/typeconverter" />
+        <option name="gradleJvm" value="zulu-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/__MACOSX/mvc2/typeconverter" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/__MACOSX/mvc2/upload" />
+        <option name="gradleJvm" value="zulu-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/__MACOSX/mvc2/upload" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/__MACOSX/mvc2/validation" />
+        <option name="gradleJvm" value="zulu-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/__MACOSX/mvc2/validation" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/__MACOSX/mvc2/validation-start" />
+        <option name="gradleJvm" value="zulu-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/__MACOSX/mvc2/validation-start" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/mvc2/exception" />
+        <option name="gradleJvm" value="zulu-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/mvc2/exception" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/mvc2/form" />
+        <option name="gradleJvm" value="zulu-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/mvc2/form" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/mvc2/form-start" />
+        <option name="gradleJvm" value="zulu-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/mvc2/form-start" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/mvc2/login" />
+        <option name="gradleJvm" value="zulu-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/mvc2/login" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/mvc2/login-start" />
+        <option name="gradleJvm" value="zulu-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/mvc2/login-start" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/mvc2/message" />
+        <option name="gradleJvm" value="zulu-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/mvc2/message" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/mvc2/message-start" />
+        <option name="gradleJvm" value="zulu-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/mvc2/message-start" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/mvc2/thymeleaf-basic" />
+        <option name="gradleJvm" value="zulu-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/mvc2/thymeleaf-basic" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/mvc2/typeconverter" />
+        <option name="gradleJvm" value="zulu-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/mvc2/typeconverter" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/mvc2/upload" />
+        <option name="gradleJvm" value="zulu-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/mvc2/upload" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/mvc2/validation" />
+        <option name="gradleJvm" value="zulu-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/mvc2/validation" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/mvc2/validation-start" />
+        <option name="gradleJvm" value="zulu-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/mvc2/validation-start" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
